@@ -1,0 +1,1919 @@
+<!DOCTYPE html>
+<html AMP>
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500&display=swap);">
+  <link rel="canonical" href="./index.html">
+  <script async src="https://cdn.ampproject.org/v0.js"></script>
+  <style amp-boilerplate>
+    body {
+      -webkit-animation: -amp-start 8s steps(1, end) 0s 1 normal both;
+      -moz-animation: -amp-start 8s steps(1, end) 0s 1 normal both;
+      -ms-animation: -amp-start 8s steps(1, end) 0s 1 normal both;
+      animation: -amp-start 8s steps(1, end) 0s 1 normal both
+    }
+
+    @-webkit-keyframes -amp-start {
+      from {
+        visibility: hidden
+      }
+
+      to {
+        visibility: visible
+      }
+    }
+
+    @-moz-keyframes -amp-start {
+      from {
+        visibility: hidden
+      }
+
+      to {
+        visibility: visible
+      }
+    }
+
+    @-ms-keyframes -amp-start {
+      from {
+        visibility: hidden
+      }
+
+      to {
+        visibility: visible
+      }
+    }
+
+    @-o-keyframes -amp-start {
+      from {
+        visibility: hidden
+      }
+
+      to {
+        visibility: visible
+      }
+    }
+
+    @keyframes -amp-start {
+      from {
+        visibility: hidden
+      }
+
+      to {
+        visibility: visible
+      }
+    }
+  </style><noscript>
+    <style amp-boilerplate>
+      body {
+        -webkit-animation: none;
+        -moz-animation: none;
+        -ms-animation: none;
+        animation: none
+      }
+    </style>
+  </noscript>
+  <title>Document</title>
+  <style amp-custom>
+    * {
+      padding: 0;
+      margin: 0;
+      font-family: "Roboto", sans-serif
+    }
+
+    .hero__top {
+      display: flex;
+      height: 65vh;
+      width: 100%;
+      background: #000;
+      color: #fff
+    }
+
+    .hero__completo__left,
+    .hero__completo__right {
+      width: 50vw
+    }
+
+    .hero__completo__right amp-img {
+      width: 100%;
+      height: 100%
+    }
+
+    .hero__completo__left {
+      display: grid;
+      place-items: center;
+      padding: 3em
+    }
+
+    .hero__completo__left h4 {
+      font-size: 30px;
+      margin-left: 10vw;
+      margin-right: 10vw
+    }
+
+    .hero__completo__left h2 {
+      margin-left: 10vw;
+      text-align: center;
+      font-size: 60px;
+      display: flex
+    }
+
+    .hero__completo__left span {
+      margin-top: 20px;
+      font-size: 10px
+    }
+
+    .hero__buttom {
+      margin-top: 1em
+    }
+
+    .hero__buttom h3 {
+      text-align: center;
+      margin-bottom: 1.5em;
+      font-weight: 350
+    }
+
+    .hero__buttom_items {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      padding-left: 2em;
+      padding-right: 2em
+    }
+
+    .hero__buttom_item {
+      display: flex;
+      align-items: center
+    }
+
+    .hero__buttom_item h4 {
+      margin-bottom: 10px;
+      font-size: 30px;
+      font-weight: 300
+    }
+
+    .hero__buttom_item p {
+      width: 250px;
+      font-size: 14px;
+      font-weight: 300
+    }
+
+    .hero .hero__tittle h4 {
+      font-weight: 300;
+      line-height: .9em
+    }
+
+    .completo {
+      height: auto;
+      display: flex
+    }
+
+    .completo .completo__left .tittle h2 {
+      font-size: 50px;
+      margin: 1em 1em 1em 0
+    }
+
+    .completo .completo__left .tittle h3 {
+      margin: 1em;
+      width: 300px
+    }
+
+    .completo .completo__left .tittle p {
+      margin: 1em;
+      font-size: 17px
+    }
+
+    .completo .completo__left {
+      padding-left: 4em;
+      padding-top: 2em
+    }
+
+    .completo .completo__feature amp-img {
+      width: 50px
+    }
+
+    .completo .completo__feature {
+      display: flex;
+      align-items: flex-start;
+      padding: 1em
+    }
+
+    .completo .completo__right amp-img {
+      width: 100%;
+      height: 100%
+    }
+
+    .completo .completo__right {
+      position: relative;
+      margin-top: 3em;
+      background-color: red;
+      margin-right: 3em;
+      height: 80vh;
+      width: 100%
+    }
+
+    .completo .completo__right .text {
+      margin-top: 1em;
+      position: absolute;
+      top: 0;
+      left: 20%
+    }
+
+    .seguro {
+      display: flex;
+      padding: 2em
+    }
+
+    .completo .completo__right,
+    .legal .legal__right amp-img,
+    .seguro .seguro__left amp-img {
+      -webkit-box-shadow: 10px 10px 5px 0 rgba(0, 0, 0, .75);
+      -moz-box-shadow: 10px 10px 5px 0 rgba(0, 0, 0, .75);
+      box-shadow: 10px 10px 5px 0 rgba(0, 0, 0, .75)
+    }
+
+    .seguro .seguro__left {
+      margin-right: 2em;
+      margin-left: 1em
+    }
+
+    .seguro .seguro__right {
+      width: 50vw;
+      padding: 2em;
+      margin-left: 5em
+    }
+
+    .seguro .seguro__feature .feature {
+      margin-top: 1em;
+      display: flex;
+      justify-content: right;
+      width: 85%;
+      text-align: justify
+    }
+
+    .seguro .seguro__feature .feature p {
+      font-size: 18px
+    }
+
+    .hero__buttom_item amp-img,
+    .seguro .seguro__feature .feature amp-img {
+      width: 100px;
+      height: 100px;
+      margin-right: 1em
+    }
+
+    .seguro .feature.iso {
+      align-items: center;
+      font-size: 12px
+    }
+
+    .seguro .feature.iso amp-img {
+      height: 50px
+    }
+
+    .posibilidades .posibilidades__tittle h2,
+    .seguro .seguro__right .tittle h2 {
+      font-size: 50px
+    }
+
+    .seguro .seguro__right .tittle h3 {
+      padding: 1em 1em 1em 0
+    }
+
+    .legal {
+      padding: 2em;
+      margin-bottom: 2em
+    }
+
+    .legal .legal__left {
+      padding: 1em 1em 1em 2em
+    }
+
+    .legal,
+    .legal .legal__left__features {
+      display: flex
+    }
+
+    .legal .legal__left .tittle {
+      margin-top: 1em
+    }
+
+    .legal .legal__left .tittle h2 {
+      font-size: 50px;
+      margin-bottom: .3em
+    }
+
+    .legal .legal__left .tittle h3 {
+      margin-bottom: 1em;
+      font-size: 25px
+    }
+
+    .legal .legal__left .tittle p {
+      font-size: 17px;
+      margin-bottom: 1.5em;
+      line-height: 1.4em;
+      text-align: justify;
+      width: 90%
+    }
+
+    .legal .legal__left__features amp-img {
+      width: 150px;
+      height: 150px
+    }
+
+    .legal .legal__left__features .features__text {
+      width: 72%;
+      text-align: justify;
+      font-size: 17px;
+      margin-left: 1em
+    }
+
+    .legal .legal__left__features .features__text p {
+      margin-bottom: 1em
+    }
+
+    .legal .legal__left__features .features__text ul {
+      margin-left: 1em;
+      list-style: circle
+    }
+
+    .legal .legal__left__features .features__text ul li {
+      margin-bottom: .5em;
+      margin-left: .5em
+    }
+
+    .funcionalidad .funcionalidad__container .funcionalidad__item p,
+    .legal .legal__left__features .features__text ul li span {
+      font-weight: 700
+    }
+
+    .posibilidades {
+      padding: 2em 0;
+      height: auto
+    }
+
+    .posibilidades .posibilidades__tittle {
+      margin-left: 3em;
+      margin-top: 2em;
+      margin-bottom: 1em
+    }
+
+    .posibilidades .posibilidades__body {
+      color: #8b69b2;
+      background: #f2f4f1
+    }
+
+    .posibilidades .posibilidades__body .posibilidades__right {
+      width: 40vw;
+      margin-top: 2em;
+      padding-left: 3em
+    }
+
+    .posibilidades .posibilidades__body .posibilidades__right h3 {
+      width: 45%;
+      color: #000;
+      font-size: 25px
+    }
+
+    .posibilidades .posibilidades__body .posibilidades__right .posibilidades__item {
+      margin: 1em 1em 1em 0
+    }
+
+    .posibilidades .posibilidades__body .posibilidades__right .posibilidades__item amp-img {
+      background: #fff;
+      height: 80px;
+      -webkit-box-shadow: 10px 9px 5px -6px rgba(0, 0, 0, .75);
+      -moz-box-shadow: 10px 9px 5px -6px rgba(0, 0, 0, .75);
+      box-shadow: 10px 9px 5px -6px rgba(0, 0, 0, .75)
+    }
+
+    .posibilidades .posibilidades__body .posibilidades__right .posibilidades__item p {
+      margin-top: .7em
+    }
+
+    .posibilidades .posibilidades__body .posibilidades__left {
+      width: 60vw
+    }
+
+    .posibilidades .posibilidades__body .posibilidades__left amp-img,
+    .version amp-img {
+      width: 100%
+    }
+
+    .versiones {
+      height: 100vh
+    }
+
+    .versiones .tittle h2 {
+      margin-left: 2.5em;
+      font-size: 50px
+    }
+
+    .posibilidades .posibilidades__body,
+    .versiones .versiones__box {
+      display: flex;
+      justify-content: space-evenly
+    }
+
+    .versiones .version.left {
+      background-color: #222121;
+      height: 500px
+    }
+
+    .versiones .version.right {
+      background-color: #000;
+      margin-top: -18vh;
+      height: 500px
+    }
+
+    .version {
+      width: 35vw;
+      color: #fff
+    }
+
+    .version .version__box {
+      padding: 1em 3em
+    }
+
+    .version .version__box h3 {
+      font-size: 25px;
+      margin-bottom: .5em
+    }
+
+    .version .version__box h4 {
+      font-weight: lighter;
+      color: gray;
+      margin-bottom: .5em
+    }
+
+    .version .version__box li {
+      margin-bottom: .5em
+    }
+
+    .configurables,
+    .licenciamiento {
+      margin-top: 3em;
+      height: 100vh
+    }
+
+    .licenciamiento .tittle h2 {
+      font-size: 50px;
+      margin-left: 2em;
+      margin-bottom: .5em
+    }
+
+    .licenciamiento .licenciamiento__container {
+      display: flex
+    }
+
+    .licenciamiento .licenciamiento__container .licenciamiento__left amp-img {
+      height: 100%;
+      width: 100%
+    }
+
+    .licenciamiento .licenciamiento__container .licenciamiento__right {
+      display: flex;
+      justify-content: space-evenly;
+      color: #000
+    }
+
+    .licenciamiento .licenciamiento__container .licenciamiento__right .container .container__buttom {
+      display: flex;
+      justify-content: space-between
+    }
+
+    .licenciamiento .licenciamiento__container .licenciamiento__right .container .container__buttom .first {
+      background: #555151;
+      width: 50%;
+      color: #fff
+    }
+
+    .licenciamiento .licenciamiento__container .licenciamiento__right .container .container__buttom .second {
+      color: #fff;
+      width: 50%;
+      background: #5f4e4e
+    }
+
+    .licenciamiento .licenciamiento__container .licenciamiento__right .servicio.first {
+      height: 91.7%
+    }
+
+    .licenciamiento .licenciamiento__container .licenciamiento__right .servicio {
+      padding: 1em;
+      background: #000;
+      color: #fff
+    }
+
+    .licenciamiento .licenciamiento__container .licenciamiento__right .servicio ul {
+      padding-left: 2em;
+      width: 80%;
+      font-size: 17px
+    }
+
+    .licenciamiento .licenciamiento__container .licenciamiento__right .servicio amp-img {
+      width: 80px
+    }
+
+    .configurables .tittle {
+      font-size: 50px;
+      padding-left: 1em;
+      padding-bottom: 1em
+    }
+
+    .configurables .configurables__container {
+      color: #fff;
+      display: flex;
+      flex-wrap: wrap
+    }
+
+    .configurables .configurables__container .configurables__item.autoenticacion {
+      background: #000;
+      height: 60vh
+    }
+
+    .configurables .configurables__container .repositorios__container amp-img {
+      width: 100px
+    }
+
+    .configurables .configurables__container .configurables__item.repositorios {
+      background: #1b1b1b;
+      height: 50vh
+    }
+
+    .configurables .configurables__container .configurables__item.workflow {
+      height: 40vh;
+      background: #444242
+    }
+
+    .configurables .configurables__container .configurables__item {
+      padding: 2.5em;
+      width: 27vw
+    }
+
+    .configurables .configurables__container .configurables__item h2 {
+      margin: 1em 0
+    }
+
+    .configurables .configurables__container .configurables__item ul {
+      list-style: disc
+    }
+
+    .configurables .configurables__container .configurables__item ul li {
+      margin: 1em 1em 1em 0;
+      font-size: 19px
+    }
+
+    .configurables .configurables__container .configurables__item amp-img {
+      height: 50px
+    }
+
+    .funcionalidad {
+      height: 100vh;
+      position: relative
+    }
+
+    .funcionalidad .tittle {
+      font-size: 50px
+    }
+
+    .funcionalidad amp-img {
+      position: absolute;
+      bottom: 0;
+      right: 0
+    }
+
+    .funcionalidad .funcionalidad__container {
+      padding: 2em;
+      display: flex;
+      justify-content: space-between
+    }
+
+    .funcionalidad .funcionalidad__container .funcionalidad__right {
+      z-index: 100
+    }
+
+    .funcionalidad .funcionalidad__container .funcionalidad__item {
+      margin-bottom: 1em
+    }
+
+    .funcionalidad .funcionalidad__container .funcionalidad__item li {
+      margin-left: 1.5em
+    }
+
+    .funcionalidad .funcionalidad__container .funcionalidad__left,
+    .funcionalidad .funcionalidad__container .funcionalidad__right {
+      width: 50%
+    }
+
+    .dasboard,
+    .login {
+      height: 100vh
+    }
+
+    .login .login__container {
+      display: flex
+    }
+
+    .dasboard .tittle h2 {
+      font-size: 50px;
+      margin-left: 1em
+    }
+
+    .dasboard .dasboard__right {
+      margin-left: 2em
+    }
+
+    .dasboard .dasboard__container {
+      display: flex
+    }
+
+    .footer .footer__container {
+      padding: 2em;
+      background-color: #2c2c2cff;
+      color: #fff;
+      display: flex;
+      justify-content: space-evenly
+    }
+
+    .footer .footer__container .footer__right ul {
+      margin-top: 1em;
+      display: flex;
+      justify-content: space-evenly;
+      list-style: none
+    }
+
+    .footer .footer__container .footer__left .input__container {
+      border: 1px solid rgba(255, 255, 255, .534);
+      padding: 1em;
+      border-radius: 5px
+    }
+
+    .footer .footer__container .footer__left .input__container input {
+      margin: .5em;
+      border: 0;
+      outline: 0
+    }
+
+    .footer .footer__container .footer__left .input__container button {
+      padding: .5em;
+      background-color: #669906;
+      color: #fff;
+      border: 0;
+      border-radius: 5px
+    }
+
+    @media only screen and (min-width:320px) and (max-width:668px) {
+
+      .dasboard amp-img,
+      .login__left amp-img {
+        width: 100%
+      }
+
+      .funcionalidad .tittle {
+        font-size: 30px
+      }
+
+      .hero__top,
+      .licenciamiento__container,
+      .seguro {
+        flex-wrap: wrap
+      }
+
+      .hero__completo__left h2 {
+        margin-left: 0;
+        text-align: center;
+        font-size: 40px
+      }
+
+      .hero__buttom_item amp-img {
+        width: 76px;
+        height: 64px;
+        margin-right: 10px
+      }
+
+      .hero__buttom_item {
+        margin-bottom: 1em
+      }
+
+      .hero__buttom_items {
+        padding-left: 1em;
+        padding-right: 1em
+      }
+
+      .hero__buttom_item h4 {
+        margin-bottom: 5px;
+        font-size: 22px
+      }
+
+      .licenciamiento .licenciamiento__container .licenciamiento__right {
+        display: block;
+        color: #000
+      }
+
+      .configurables .tittle {
+        font-size: 35px
+      }
+
+      .completo .completo__left {
+        padding-left: 1em;
+        padding-top: 0
+      }
+
+      .versiones .tittle h2 {
+        font-size: 35px
+      }
+
+      .hero__completo__right {
+        width: 100%
+      }
+
+      .completo,
+      .hero__top {
+        display: flex;
+        height: auto
+      }
+
+      .hero__buttom_item p {
+        width: 220px
+      }
+
+      .versiones .versiones__box {
+        display: flex;
+        flex-direction: column
+      }
+
+      .hero__completo__left h4 {
+        font-size: 22px;
+        margin-left: 0;
+        margin-right: 0
+      }
+
+      .hero__buttom h3 {
+        font-size: 17px;
+        margin: 10px
+      }
+
+      .completo {
+        flex-wrap: wrap;
+        margin-top: 3em;
+        margin-bottom: 3em
+      }
+
+      .completo .completo__right {
+        width: 75%;
+        display: block;
+        margin: auto;
+        height: 100%;
+        background-color: #fff
+      }
+
+      .completo .completo__left .tittle h2 {
+        font-size: 35px;
+        margin: 0
+      }
+
+      .completo .completo__left .tittle h3 {
+        margin: 0
+      }
+
+      .completo .completo__left .tittle p {
+        font-size: 13px;
+        margin: 10px 1em 0 0
+      }
+
+      .completo .completo__left .completo__feature {
+        margin-top: 2em;
+        display: flex;
+        flex-wrap: wrap;
+        padding-left: 0
+      }
+
+      .completo .completo__left .completo__feature p {
+        font-size: 13px;
+        text-align: justify
+      }
+
+      .seguro {
+        padding: 0;
+        flex-direction: column-reverse;
+        margin-bottom: 2em
+      }
+
+      .seguro .seguro__left {
+        margin-right: 0;
+        margin-left: 0
+      }
+
+      .legal .legal__right amp-img,
+      .seguro .seguro__left amp-img {
+        width: 75%;
+        display: block;
+        margin: auto
+      }
+
+      .seguro .seguro__right {
+        width: 100vw;
+        padding: 0;
+        margin-left: 0
+      }
+
+      .legal .legal__left,
+      .seguro .seguro__right .tittle {
+        padding-left: 1em
+      }
+
+      .seguro .seguro__right .tittle h3 {
+        padding-top: .5em
+      }
+
+      .seguro .seguro__right .seguro__feature p {
+        font-size: 12px
+      }
+
+      .seguro .seguro__feature .feature {
+        width: 95%;
+        margin-bottom: 1em
+      }
+
+      .seguro .seguro__feature .feature amp-img  {
+        width: 76px;
+        height: 44px;
+        margin-right: .5em;
+        margin-left: 1em
+      }
+
+      .seguro .seguro__feature .feature.iso p {
+        font-size: 10px
+      }
+
+      .legal {
+        flex-wrap: wrap;
+        padding: 0
+      }
+
+      .legal .legal__left .tittle p {
+        font-size: 14px;
+        width: 100%
+      }
+
+      .legal .legal__left .legal__left__features {
+        margin-top: 2em;
+        display: flex;
+        flex-wrap: wrap
+      }
+
+      .legal .legal__left .legal__left__features amp-img {
+        width: 104px;
+        height: 100px;
+        display: block;
+        margin: auto
+      }
+
+      .legal .legal__left .legal__left__features .features__text {
+        width: 100%;
+        font-size: 15px;
+        margin-left: 0
+      }
+
+      .legal .legal__left .legal__left__features ul li {
+        margin-bottom: .5em;
+        margin-left: .5em;
+        font-size: 13px
+      }
+
+      .posibilidades .posibilidades__tittle {
+        margin-left: 1em
+      }
+
+      .posibilidades .posibilidades__tittle h2 {
+        font-size: 35px;
+        line-height: 1em;
+        margin-bottom: .5em
+      }
+
+      .posibilidades .posibilidades__body {
+        flex-direction: column
+      }
+
+      .posibilidades .posibilidades__body .posibilidades__right {
+        width: 100%;
+        margin-top: 2em;
+        padding-left: 0
+      }
+
+      .posibilidades .posibilidades__body .posibilidades__right .posibilidades__item .item__top {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly
+      }
+
+      .posibilidades .posibilidades__body .posibilidades__right .posibilidades__item .item__top span {
+        font-size: 40px;
+        margin-left: 10px
+      }
+
+      .posibilidades .posibilidades__body .posibilidades__right h3 {
+        width: 95%;
+        text-align: center;
+        font-size: 25px
+      }
+
+      .posibilidades .posibilidades__body .posibilidades__right p {
+        text-align: center
+      }
+
+      .posibilidades .posibilidades__body .posibilidades__left,
+      .versiones .version {
+        width: 100%
+      }
+
+      .versiones {
+        height: auto
+      }
+
+      .licenciamiento .tittle h2,
+      .versiones .tittle h2 {
+        margin-left: 1em;
+        margin-bottom: .5em
+      }
+
+      .versiones .version.left {
+        background-color: #222121;
+        height: auto
+      }
+
+      .versiones .version.right {
+        background-color: #000;
+        margin-top: 2em;
+        height: auto
+      }
+
+      .licenciamiento {
+        margin-top: 4em;
+        height: auto
+      }
+
+      .licenciamiento .tittle h2 {
+        font-size: 35px
+      }
+
+      .licenciamiento .container,
+      .login .login__container .login__right ul li {
+        margin-bottom: 1em
+      }
+
+      .configurables {
+        height: auto;
+        margin-top: 10em
+      }
+
+      .configurables .configurables__container .configurables__item.autoenticacion,
+      .configurables .configurables__container .configurables__item.workflow {
+        background: #000;
+        height: auto;
+        width: 100vw
+      }
+
+      .configurables .configurables__container .configurables__item {
+        height: auto;
+        width: auto;
+        padding: 1.5em
+      }
+
+      .funcionalidad,
+      .login {
+        height: auto;
+        margin-top: 3em
+      }
+
+      .funcionalidad amp-img {
+        z-index: 0
+      }
+
+      .funcionalidad .tittle h2 {
+        font-size: 35px;
+        padding-left: 1em;
+        z-index: 1000
+      }
+
+      .funcionalidad .funcionalidad__container {
+        padding: 2em;
+        display: flex;
+        flex-direction: column
+      }
+
+      .funcionalidad .funcionalidad__container .funcionalidad__left {
+        width: 100%;
+        z-index: 1
+      }
+
+      .funcionalidad .funcionalidad__container .funcionalidad__right {
+        width: 100%
+      }
+
+      .login {
+        margin-bottom: 3em;
+        height: 100%
+      }
+
+      .login .tittle {
+        margin-left: 1em;
+        margin-bottom: 1em;
+        font-size: 35px
+      }
+
+      .login .login__container {
+        display: flex;
+        flex-direction: column
+      }
+
+      .login .login__container .login__right ul {
+        margin-top: 2em;
+        margin-left: 2em;
+        margin-right: 1em;
+        font-size: 12px
+      }
+
+      .dasboard {
+        font-size: 12px
+      }
+
+      .dasboard .tittle {
+        margin-left: 0;
+        margin-bottom: 1em;
+        font-size: 20px
+      }
+
+      .dasboard .dasboard__container {
+        flex-direction: column
+      }
+
+      .dasboard .dasboard__container .dasboard__right ul {
+        margin-top: 2em;
+        margin-left: 2em
+      }
+
+      .footer .footer__container {
+        padding: 1em;
+        display: block
+      }
+
+      .footer .footer__container .footer__right ul {
+        display: block
+      }
+
+      .footer .footer__container .input__container {
+        margin-top: .5em;
+        display: flex
+      }
+    }
+
+    @media only screen and (min-width:668px) and (max-width:791px) {
+
+      .posibilidades .posibilidades__body,
+      .seguro {
+        flex-direction: column-reverse
+      }
+
+      .legal .legal__left__features .features__text ul li {
+        margin-bottom: .5em;
+        width: 210%
+      }
+
+      .posibilidades .posibilidades__body .posibilidades__left {
+        width: 100%
+      }
+
+      .posibilidades .posibilidades__body .posibilidades__right {
+        padding-left: 0;
+        width: 100%
+      }
+
+      .posibilidades .posibilidades__body .posibilidades__right h3 {
+        width: 100%;
+        text-align: center
+      }
+
+      .posibilidades .posibilidades__body .posibilidades__right .posibilidades__item {
+        display: flex;
+        flex-direction: column;
+        align-items: center
+      }
+
+      .versiones {
+        height: auto;
+        margin-top: 3em
+      }
+
+      .versiones .versiones__box {
+        margin: 0 2em 2em
+      }
+
+      .versiones .versiones__box .version.left,
+      .versiones .versiones__box .version.right {
+        margin-top: 10vh;
+        background-color: #222121;
+        height: auto;
+        width: 100%
+      }
+
+      .configurables {
+        margin-top: 7em;
+        height: auto
+      }
+
+      .login .login__container,
+      .versiones .versiones__box {
+        display: flex;
+        flex-direction: column
+      }
+
+      .legal .legal__right amp-img {
+        width: 258px;
+        margin-top: 9em
+      }
+
+      .dasboard .dasboard__container {
+        flex-direction: column
+      }
+
+      .completo {
+        margin: 2em auto
+      }
+
+      .hero__buttom_item {
+        margin-bottom: 20px;
+        margin-right: 20px
+      }
+
+      .hero__buttom_item p {
+        width: 200px;
+        font-size: 15px;
+        font-weight: 300
+      }
+
+      .hero__top {
+        height: auto;
+        display: flex;
+        flex-direction: column
+      }
+
+      .hero__top .hero__completo__left {
+        width: auto
+      }
+
+      .hero__top .hero__completo__right {
+        width: 100%;
+        height: 102%
+      }
+
+      .hero__buttom_items {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding-left: 0;
+        padding-right: 0
+      }
+
+      .seguro .seguro__left {
+        display: block;
+        margin-right: auto;
+        margin-left: auto
+      }
+
+      .seguro .seguro__right {
+        width: auto;
+        padding: 0;
+        margin-bottom: 20px
+      }
+
+      .completo {
+        display: flex;
+        flex-direction: column
+      }
+
+      .completo .completo__right {
+        display: block;
+        width: 53%;
+        height: auto;
+        margin: auto;
+        background-color: #fff
+      }
+
+      .completo,
+      .configurables .configurables__container .configurables__item.workflow,
+      .licenciamiento {
+        height: auto
+      }
+
+      .licenciamiento .licenciamiento__container {
+        display: flex;
+        flex-direction: column
+      }
+
+      .licenciamiento .licenciamiento__container .licenciamiento__left {
+        display: block;
+        margin: auto
+      }
+
+      .configurables .configurables__container .configurables__item {
+        padding: 2.5em;
+        width: 39.5vw
+      }
+
+      .funcionalidad {
+        height: auto;
+        margin: 3em 0
+      }
+
+      .funcionalidad .tittle h2 {
+        font-size: 50px;
+        margin-left: 1em
+      }
+
+      .dasboard,
+      .login {
+        height: auto
+      }
+
+      .login .tittle {
+        margin-left: 2em
+      }
+
+      .dasboard .tittle h2,
+      .login .tittle h2 {
+        font-size: 50px
+      }
+
+      .login ul {
+        width: 90%;
+        margin-left: 3em
+      }
+
+      .login ul li {
+        margin-bottom: 10px
+      }
+
+      .dasboard {
+        margin-top: 4em
+      }
+
+      .dasboard,
+      .dasboard .tittle {
+        margin-left: 1em
+      }
+
+      .dasboard ul {
+        margin-top: 1em;
+        width: 90%;
+        margin-left: 2em
+      }
+    }
+
+    @media only screen and (min-width:791px) {
+
+      .licenciamiento .tittle h2,
+      .versiones .tittle h2 {
+        margin-left: 1em
+      }
+
+      .versiones .version.right {
+        background-color: #000;
+        margin-top: -4em;
+        height: 500px
+      }
+
+      .licenciamiento .licenciamiento__container .licenciamiento__right .container {
+        height: 101.5%;
+        width: 30vw
+      }
+
+      .licenciamiento .licenciamiento__container .licenciamiento__right .servicio {
+        width: 30vw
+      }
+
+      .posibilidades {
+        margin-bottom: 2em
+      }
+
+      .posibilidades .posibilidades__body .posibilidades__left amp-img {
+        width: 100%;
+        height: 100%
+      }
+
+      .configurables {
+        margin-top: 3em;
+        height: auto
+      }
+
+      .configurables .configurables__container {
+        color: #fff;
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 1.5em
+      }
+
+      .configurables .configurables__container .configurables__item {
+        padding: 2.5em;
+        width: 24vw
+      }
+
+      .configurables .configurables__container .configurables__item h2 {
+        margin: 0
+      }
+
+      .configurables .configurables__container .configurables__item ul li {
+        margin-bottom: 1em;
+        margin-right: 0;
+        font-size: 15px
+      }
+
+      .configurables .configurables__container .configurables__item .configurables__item_marks {
+        display: flex;
+        flex-wrap: wrap
+      }
+
+      .configurables .configurables__container .configurables__item .configurables__item_marks img {
+        width: 40%;
+        margin-right: 15px
+      }
+
+      .configurables .configurables__container .configurables__item.workflow {
+        height: 44.7vh
+      }
+
+      .configurables .configurables__container .configurables__item.repositorios {
+        height: 40vh
+      }
+
+      .configurables .configurables__container .configurables__item.autoenticacion {
+        height: 100%
+      }
+
+      .funcionalidad {
+        height: auto;
+        position: relative;
+        margin-top: 20vh
+      }
+
+      .login {
+        margin-top: 2em
+      }
+
+      .funcionalidad .tittle h2,
+      .login .tittle h2 {
+        margin-left: 1em;
+        font-size: 50px
+      }
+
+      .login .login__left amp-img {
+        width: 100%
+      }
+
+      .login .login__right ul {
+        margin-top: 20vh;
+        margin-left: 2em;
+        width: 75%;
+        text-align: justify
+      }
+
+      .login .login__right ul li {
+        margin-bottom: 1em
+      }
+
+      .dasboard .tittle {
+        font-size: 50px;
+        margin-left: 0
+      }
+
+      .dasboard .dasboard__right ul {
+        margin-top: 20vh;
+        width: 80%;
+        margin-left: 6em
+      }
+
+      .dasboard .dasboard__right ul li {
+        margin-bottom: .5em
+      }
+
+      .dasboard .dasboard__left amp-img {
+        width: 119%
+      }
+    }
+
+    @media only screen and (min-width:1000px) {
+
+      .licenciamiento,
+      .versiones {
+        margin-top: 5em;
+        margin-bottom: 5em;
+        height: auto
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="hero">
+    <div class="hero__top">
+      <div class="hero__completo__left">
+        <div class="hero__tittle">
+          <h2>Intellising <span>MR</span></h2>
+          <h4>Gestión de firmas Electrónicas avanzadas</h4>
+        </div>
+      </div>
+      <div class="hero__completo__right">
+        <amp-img layout="responsive" width="100" height="100" src="./images/hero.png" alt="">
+      </div>
+    </div>
+    <div class="hero__buttom">
+      <div class="tittle">
+        <h3>Logre y consiga acuerdos electrónicos con validez legal y el soporte de:</h3>
+      </div>
+      <div class="hero__buttom_items">
+        <div class="hero__buttom_item">
+          <amp-img layout="responsive" width="100" height="100" src="./images/firma.png" alt="firma png">
+            <div class="text">
+              <h4>Firmas gráficas</h4>
+              <p>Estampe sufirma gráfica desde el celular o computador y realice firmas rápidas y confiables.</p>
+            </div>
+        </div>
+        <div class="hero__buttom_item">
+          <amp-img layout="responsive" width="100" height="100" src="./images/certificate.png" alt="certificado png">
+            <div class="text">
+              <h4>Firmas digitales</h4>
+              <p>Estampe su firma gráfica desde el celular o computador y realice firmas rápidas y confiables.</p>
+            </div>
+        </div>
+        <div class="hero__buttom_item">
+          <amp-img layout="responsive" width="100" height="100" src="./images/biometric.png" alt="biometric png">
+            <div class="text">
+              <h4>Firmas biométricas</h4>
+              <p>Estampe su firma gráfica desde el celular o computador y realice firmas rápidas y confiables.</p>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <main>
+    <div class="completo">
+      <div class="completo__left">
+        <div class="tittle">
+          <h2>Completo</h2>
+          <h3>Acuerdos electrónicos para que nadie quede fuera </h3>
+          <p class="text">
+            La principal ventaja denuestro producto Intellisign® es que nadie quedará fuera de su flujo de firma,sea que
+            un usuario(cliente,proveedor o empleado)use certificados digitales o no,siempre podrá acceder a firmar los
+            documentos generados por usted o su equipo con otras clases de firmas electrónicas seguras,soportadas por
+            nuestro sistema.
+          </p>
+        </div>
+        <div class="completo__feature">
+          <amp-img layout="responsive" width="100" height="100" src="./images/workflow.png" alt="work flows icon png">
+            <div class="feature__text">
+              <h3>Workflows</h3>
+              <p>
+                Con un par de clics,podrá configurar fácilmente quiénes serán las personas que firmarán un determinado
+                documento electrónico. Determine el ordenen que las personas deban firmar los documentos o el mecanismo
+                de
+                firma con la que realizarán la suscripción(firma digital,firma gráfica o firma biométrica).
+              </p>
+            </div>
+        </div>
+        <div class="completo__feature">
+          <amp-img layout="responsive" width="100" height="100" src="./images/view.png" alt="view icon png">
+            <div class="feature__text">
+              <h3>trazabilidad</h3>
+              <p>
+                Los equipos que trabajan con Intellisign® adoran nuestra funcionalidad para realizar seguimientos y
+                trazabilidad de los documentos que se han generado y han puesto a disposición de los firmantes. Así cada
+                usuario o administrador podrá supervisar la hora,fecha e IP desde donde se firmó un documento.Incluso si
+                un documento está retrasado parafirmar,un recordatorio periódico será enviado para ponerse al día.
+              </p>
+            </div>
+        </div>
+      </div>
+      <div class="completo__right">
+        <amp-img layout="responsive" width="100" height="100" src="./images/pet.png" alt="pet dog">
+          <div class="text">
+          </div>
+      </div>
+    </div>
+    <div class="seguro">
+      <div class="seguro__left">
+        <amp-img layout="responsive" width="100" height="100" src="./images/llaves.png" alt="">
+      </div>
+      <div class="seguro__right">
+        <div class="tittle">
+          <h2>seguro</h2>
+          <h3>Enfoque en seguridad digital en primer y segundo lugar</h3>
+        </div>
+        <div class="seguro__feature">
+          <div class="feature">
+            <amp-img layout="responsive" width="100" height="100"
+              src="https://img.icons8.com/wired/64/000000/lock-2.png" />
+            <p>
+              Intellisign® también se ofrece como software como servicio(SaaS),por ello cuidamos que su navegación
+              dentro de la plataforma sea segura(Cifrado de Punto a Punto con TLS1.2) y que el servicio nunca se
+              interrumpa(anti ataques DDoS).Tanto las bases de datos,como los documentos electrónicos en Intellisign® se
+              encuentran cifrados en ubicaciones diferentes e inaccesibles para empleados no autorizados,asegurando
+              plena confidencialidad.Puede configurar políticas de destrucción y respaldo segura de documentos de manera
+              periódica.
+
+            </p>
+          </div>
+          <div class="feature iso">
+            <amp-img layout="responsive" width="100" height="100" src="./images/iso27001.png">
+              <p>Próxima Certificación ISO/IEC 27001 de Seguridad de la Información.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="legal">
+      <div class="legal__left">
+        <div class="tittle">
+          <h2>legal</h2>
+          <h3>La validez legal que su organización necesita</h3>
+          <p>
+            Intellisign® es usado por decenas de empresas anivel nacional permitiendo la combinación de firmas digitales
+            con firmas electrónicas gráficas y firmas biométricas,plenamente válido de acuerdo a la normativa vigente
+            del
+            Código Civil,el cual,en sus artículos 141(Manifestación de Voluntad),141-A(Formalidad)y 143(Libertad de
+            Forma)que promueven el uso de medios electrónicos o análogos para llevar acaso éstas actividades.
+
+          </p>
+        </div>
+        <div class="legal__left__features">
+          <amp-img layout="responsive" width="100" height="100" src="./images/martillo.png" alt="martillo png">
+            <div class="features__text">
+              <p>
+                Intellisign® es la única opción multiplataforma de firma electrónica avanzada que le provee:
+              </p>
+              <ul>
+                <li><span>Autenticación:</span>que el documento ha sido firmado por la persona que dice haber lo
+                  firmado.
+                </li>
+                <li><span>Integridad:</span>La información contenida en el documento digital no ha sido modificada luego
+                  de su firma.</li>
+                <li><span>No repudio:</span>El firmante no pueda negar el contenido del documento o la veracidad de la
+                  firma y su vinculación.</li>
+                <li><span>Probanza Tecnológica:</span>Los registros de cada actividad de firma,generarán edivencias para
+                  demostrar existencias y vinculación de identidad del firmante con el documento.</li>
+              </ul>
+            </div>
+        </div>
+      </div>
+      <div class="legal__right">
+        <amp-img layout="responsive" width="100" height="100" src="./images/aplaudiendo.png" alt="">
+      </div>
+    </div>
+    <div class="posibilidades">
+      <div class="posibilidades__tittle">
+        <h2>muchas posibilidades</h2>
+        <h3>desde cualquier dispositivo en cualquier lugar</h3>
+      </div>
+      <div class="posibilidades__body">
+        <div class="posibilidades__right">
+          <h3>Combinaciones posibles de firmas</h3>
+          <div class="posibilidades__item">
+            <div class="item__top">
+              <amp-img layout="responsive" width="100" height="100"
+                src="https://img.icons8.com/wired/64/000000/signature.png" />
+              <span>+</span>
+              <amp-img layout="responsive" width="100" height="100"
+                src="https://img.icons8.com/carbon-copy/100/000000/medal.png" />
+            </div>
+            <p>Firma electrónica (gráfica) de ambos lados</p>
+          </div>
+          <div class="posibilidades__item">
+            <div class="item__top">
+              <amp-img layout="responsive" width="100" height="100"
+                src="https://img.icons8.com/wired/64/000000/signature.png" />
+              <span>+</span>
+              <amp-img layout="responsive" width="100" height="100"
+                src="https://img.icons8.com/carbon-copy/100/000000/medal.png" />
+            </div>
+            <p>Firma electrónica (gráfica) y Firma Digital (certificado digital)</p>
+          </div>
+          <div class="posibilidades__item">
+            <div class="item__top">
+              <amp-img layout="responsive" width="100" height="100"
+                src="https://img.icons8.com/wired/64/000000/signature.png" />
+              <span>+</span>
+              <amp-img layout="responsive" width="100" height="100"
+                src="https://img.icons8.com/carbon-copy/100/000000/medal.png" />
+            </div>
+            <p>firma digital (certificado digital)de ambos lados</p>
+          </div>
+        </div>
+        <div class="posibilidades__left">
+          <amp-img layout="responsive" width="100" height="100" src="./images/meeting.png" alt="meeting jpg">
+        </div>
+      </div>
+    </div>
+    <div class="versiones">
+      <div class="tittle">
+        <h2>versiones</h2>
+        <div class="versiones__box">
+          <div class="version left">
+            <amp-img layout="responsive" width="100" height="100" src="./images/versiones1.png" alt="meeting girl png">
+              <div class="version__box">
+                <h3>Intellinsing Desk</h3>
+                <h4><i>el preferido del sector público</i></h4>
+                <ul>
+                  <li>
+                    Firma Digital realizada en laptops o computadores de escritorio con el soporte de tokens
+                    criptográficos.
+                  </li>
+                  <li>
+                    Desarrollado para ejecutivos y funcionarios públicos que usan la misma estación de trabajo con poca
+                    movilidad.
+                  </li>
+                  <li>Basado en el Sistema Operativo Windows 7, 8 y 10.</li>
+                </ul>
+                <amp-img layout="responsive" width="100" height="100" src="./images/logo windows.png" alt="">
+              </div>
+          </div>
+          <div class="version right">
+            <amp-img layout="responsive" width="100" height="100" src="./images/versiones2.png" alt="meeting girl png">
+              <div class="version__box">
+                <h3>Intellinsing Desk</h3>
+                <h4><i>el preferido del sector público</i></h4>
+                <ul>
+                  <li>
+                    Firma Digital realizada en laptops o computadores de escritorio con el soporte de tokens
+                    criptográficos.
+                  </li>
+                  <li>
+                    Desarrollado para ejecutivos y funcionarios públicos que usan la misma estación de trabajo con poca
+                    movilidad.
+                  </li>
+                  <li>Basado en el Sistema Operativo Windows 7, 8 y 10.</li>
+                </ul>
+                <amp-img layout="responsive" width="100" height="100" src="./images/logo windows.png" alt="">
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="licenciamiento">
+      <div class="tittle">
+        <h2>licenciamiento</h2>
+      </div>
+      <div class="licenciamiento__container">
+        <div class="licenciamiento__left">
+          <amp-img layout="responsive" width="100" height="100" src="./images/puños.png" alt="puños jpg">
+        </div>
+        <div class="licenciamiento__right">
+          <div class="container">
+            <div class="servicio first">
+              <amp-img layout="responsive" width="100" height="100" src="./images/cloud.png" alt="">
+                <h2>Software como servicio(Saas)</h2>
+                <ul>
+                  <li>La mejor opción si no cuenta con infraestructura propia o simplemente si desea enfocarse en sus
+                    negocios
+                    y encargarnos el mantenimiento de la plataforma de software.</li>
+                  <li>Servicio provisto en servidores en Estados Unidos (EUA), Alemania (EUR) y Brasil (AMEL).</li>
+                  <li>Incluye Implementación avanzada en Anti DDoS, TSL 1.2, 2FA SMS y CDN.</li>
+                </ul>
+            </div>
+            <div class="container__buttom">
+              <p class="first">Single Server(Máx. 1 servidor)</p>
+              <p class="second">Alta Disponibilidad(Min. 3 servidores)</p>
+            </div>
+          </div>
+          <div class="servicio">
+            <amp-img layout="responsive" width="100" height="100" src="./images/server.png" alt="">
+              <h2>Software como servicio(Saas)</h2>
+              <ul>
+                <li>La mejor opción si no cuenta con infraestructura propia o simplemente si desea enfocarse en sus
+                  negocios
+                  y encargarnos el mantenimiento de la plataforma de software.</li>
+                <li>Servicio provisto en servidores en Estados Unidos (EUA), Alemania (EUR) y Brasil (AMEL).</li>
+                <li>Incluye Implementación avanzada en Anti DDoS, TSL 1.2, 2FA SMS y CDN.</li>
+              </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="configurables">
+      <h2 class="tittle">módulos configurables</h2>
+      <div class="configurables__container">
+        <div class="configurables__item autoenticacion">
+          <h2>autenticación</h2>
+          <ul>
+            <li>Posibilidad de integrar el módulo de login y autenticación de Intellisign con su propia cuenta e
+              infraestructura de Microsoft Active Directory.</li>
+            <li>Si contara con otros servicios de autenticación propias o de terceros como SAML (SSO) o OAuth podemos
+              integrarnos fácilmente con ellos. </li>
+          </ul>
+          <amp-img layout="responsive" width="100" height="100" src="./images/windows active.png" alt="">
+        </div>
+        <div class="repositorios__container">
+          <div class="configurables__item repositorios">
+            <h2>ECM & Repositorios</h2>
+            <ul>
+              <li>Posibilidad de integrar el módulo de login y autenticación de Intellisign con su propia cuenta e
+                infraestructura de Microsoft Active Directory.</li>
+              <li>Si contara con otros servicios de autenticación propias o de terceros como SAML (SSO) o OAuth podemos
+                integrarnos fácilmente con ellos. </li>
+            </ul>
+          </div>
+          <div class="configurables__item_marks">
+            <amp-img layout="responsive" width="100" height="100" src="./images/amazon.png" alt="amazon s3.png">
+              <amp-img layout="responsive" width="100" height="100" src="./images/g suite.png" alt="g suite.png">
+                <amp-img layout="responsive" width="100" height="100" src="./images/sharepoint.png"
+                  alt="sharepoint.png">
+          </div>
+        </div>
+        <div class="configurables__item workflow">
+          <h2>Workflow y aplicaciones de terceros</h2>
+          <ul>
+            <li>Nuestro módulo nativo para custodiar y alojar sus documentos electrónicos puede ser reemplazado por su
+              propio gestor documental o repositorios de documentos y archivos.</li>
+            <li>Integramos su Gestor Contenido Empresarial (ECM) con Amazon Webservices S3, Drive de Google Suite o
+              Microsoft Sharepoint. </li>
+          </ul>
+          <div class="configurables__item_marks">
+            <amp-img layout="responsive" width="100" height="100" src="./images/microsoft-dynamics.png" alt="">
+              <amp-img layout="responsive" width="100" height="100" src="./images/SAP-Ariba.png" alt="sap ariba.png">
+                <amp-img layout="responsive" width="100" height="100" src="./images/docusign.png" alt="docusign.png">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="funcionalidad">
+      <div class="tittle">
+        <h2>30 funcionalidades</h2>
+      </div>
+      <amp-img layout="responsive" width="100" height="100" src="./images/footer funcionalidades.png" alt="">
+        <div class="funcionalidad__container">
+          <div class="funcionalidad__left">
+            <div class="funcionalidad__item">
+              <p>Autenticación y Administración de Usuarios</p>
+              <ul>
+                <li>Soporte de doble factor de autenticación (2FA) por e-mail o SMS.</li>
+                <li>Autenticación con Código CAPTCHA.</li>
+                <li>Autenticación con aplicaciones de terceros (Active Directory).</li>
+                <li>Administración completa de perfiles de usuarios.</li>
+                <li>Jerarquía de funciones basado en su organización.</li>
+              </ul>
+            </div>
+            <div class="funcionalidad__item">
+              <p>Casilla Electrónica y Notificaciones</p>
+              <ul>
+                <li>Buzones por perfil de usuario (Recibido, Archivado, Firmados, Pendientes, etc).</li>
+                <li>Vistas y seguimientos por documentos.</li>
+                <li>Notificación y avisos vía e-mail y SMS.</li>
+              </ul>
+            </div>
+            <div class="funcionalidad__item">
+              <p>Flujos de trabajo y automatización</p>
+              <ul>
+                <li>Creación manual de workflow de firmas.</li>
+                <li>Workflows automatizados por templates o plantillas predefinidas.</li>
+                <li>Delegación de hasta 8 firmantes por documento.</li>
+                <li>Soporte de Característica “Subir y Firmar”.</li>
+                <li>Posibilidad de combinar modalidades de firmas (electrónica y/o digital).</li>
+              </ul>
+            </div>
+            <div class="funcionalidad__item">
+              <p>Formularios y gestión de datos</p>
+              <ul>
+                <li>Creación de formularios para automatización de datos y documentos.</li>
+                <li>Reutilización de datos captados por formularios.</li>
+              </ul>
+            </div>
+            <div class="funcionalidad__item">
+              <p>Módulo de firmas electrónicas gráficas</p>
+              <ul>
+                <li>Posibilidad de agregar trazo de firma o adjuntar una firma escaneada.</li>
+                <li>Soporte de realización de firmas por e-mail, celular o tablets.</li>
+              </ul>
+            </div>
+          </div>
+          <div class="funcionalidad__right">
+            <div class="funcionalidad__item">
+              <p>Módulo de firma digitales</p>
+              <ul>
+                <li>Soporte de firma digital en formato PAdES o PDF.</li>
+                <li>Soporte de certificados digitales clase II y III en formato X.509 (p12 o PFX).</li>
+                <li>Soporte de tokens criptográficos USB, DNI Electrónico o Smartcards.</li>
+                <li>Soporte firma digital de múltiples documentos PDF.</li>
+                <li>Soporta mecanismos de firma digital de larga duración (longeva - LTV) a través de TSA.</li>
+              </ul>
+            </div>
+            <div class="funcionalidad__item">
+              <p>Módulo de firmas biométricas faciales</p>
+              <ul>
+                <li>Verificación de identidad del firmante por captura de biometría facial.</li>
+                <li>Captura de Código Hash relacionado con el rostro del firmante para lograr vinculación legal
+                  y no repudio.</li>
+              </ul>
+            </div>
+            <div class="funcionalidad__item">
+              <p>Auditorías y estadísticas</p>
+              <ul>
+                <li>A cada documento, acuerdo o contrato por firmar se añade una hoja adicional
+                  (personalizable) llamado AuditTrail que contiene información de: Nombre de documento, ID
+                  de documento, Código QR, Registros de Iniciador y finalizador del firmante.</li>
+                <li>Disponible módulo de Auditoría y Logs para supervisar actividades relacionadas con
+                  usuario, sistema y firmas electrónicas.</li>
+                <li>Soporte de Funcionalidad de “Copia Auténtica” según la ley.</li>
+                <li>Estadísticas completas y personalizables de actividades de firma.</li>
+                <li>Posibilidad de exportar logs de auditoría y actividades relaciondas con usuarios.</li>
+              </ul>
+            </div>
+
+          </div>
+        </div>
+    </div>
+    <div class="login">
+      <div class="tittle">
+        <h2>login</h2>
+      </div>
+      <div class="login__container">
+        <div class="login__left">
+          <amp-img layout="responsive" width="100" height="100" src="./images/login.png" alt="login png">
+        </div>
+        <div class="login__right">
+          <ul>
+            <li>Acceso de usuarios a través de un
+              portal de login web responsive para
+              poder acceder desde su laptop,
+              computador o dispositivo móvil.</li>
+            <li>Credenciales de accesos con el
+              soporte de Correo Electrónico,
+              Contraseña y Código Temporal
+              (alternativo).</li>
+            <li>Implementación de código CATCHA
+              para evitar bots de SPAM en login.</li>
+            <li>Implementación de Doble Factor de
+              Autenticación (2FA) vía SMS o E-mail
+              para evitar accesos no autorizados.</li>
+            <li>Acceso login personalizable tanto en
+              imágenes como en modalidad de
+              acceso y seguridad. Posiblidad de
+              conexión con Active Directory.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="dasboard">
+      <div class="tittle">
+        <h2>dasboard</h2>
+      </div>
+      <div class="dasboard__container">
+        <div class="dasboard__left">
+          <amp-img layout="responsive" width="100" height="100" src="./images/dasboard.png" alt="dasboard png">
+        </div>
+        <div class="dasboard__right">
+          <ul>
+            <li>Acceso de usuarios a través de un
+              portal de login web responsive para
+              poder acceder desde su laptop,
+              computador o dispositivo móvil.</li>
+            <li>Credenciales de accesos con el
+              soporte de Correo Electrónico,
+              Contraseña y Código Temporal
+              (alternativo).</li>
+            <li>Implementación de código CATCHA
+              para evitar bots de SPAM en login.</li>
+            <li>Implementación de Doble Factor de
+              Autenticación (2FA) vía SMS o E-mail
+              para evitar accesos no autorizados.</li>
+            <li>Acceso login personalizable tanto en
+              imágenes como en modalidad de
+              acceso y seguridad. Posiblidad de
+              conexión con Active Directory.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <div class="footer__container">
+        <div class="footer__right">
+          <h3><span>GRAMD Ondesk</span>Firma Digital Desktop para Apple macOS</h3>
+          <p>GRAMD® Derechos reservados 2020.</p>
+          <ul>
+            <li>Inicio</li>
+            <li>Politicas de Privacidad</li>
+            <li>Terminos de Uso</li>
+            <li>Soporte Técnico</li>
+          </ul>
+        </div>
+        <div class="footer__left">
+          <div class="input__container">
+            <input type="text" placeholder="Correo Electrónico">
+            <button>Solicitar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+</body>
+
+</html>
